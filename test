@@ -1,0 +1,17 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main()
+{
+  vector<int> ivec;
+  int i;
+  while(cin>> i)
+    {
+     if(cin)
+        ivec.push_back(i);
+      else
+        break;
+     }
+}
+       
